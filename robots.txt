@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://junbinfang.github.io/sitemap.xml
+Sitemap: https://intslab.github.io/sitemap.xml
