@@ -9,7 +9,13 @@
   {% if site.last_updated %}
     Last updated: {{ 'now' | date: '%B %d, %Y' }}.
   {% endif %}
+  {% if site.busuanzi.enabled %}
+      <span id="busuanzi_container_site_pv" style="color: #ffffffff;">
+        访问量 <span id="busuanzi_value_site_pv" style="color: #ffffffff;"></span> 次
+      </span>
+  {% endif %}
 {% endcapture %}
+
 
 {% if site.footer_fixed %}
   <footer class="fixed-bottom" role="contentinfo">
